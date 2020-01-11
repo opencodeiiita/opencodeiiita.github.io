@@ -1,0 +1,51 @@
+/* Animation */
+#g3, #g2, #g1 {
+    animation: movein 1s ease-in-out;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-fill-mode: both;
+}
+
+#g2 {
+    animation-delay: .5s;
+}
+
+#g3 {
+    animation-delay: .9s;
+}
+
+@keyframes movein {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+#emoji-grp-1 {
+    animation: emoji 1s linear;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+#emoji-grp-2 {
+    animation: emoji 1s linear;
+    animation-delay: 2.25s;
+    animation-fill-mode: both;
+}
+
+#emoji-grp-3{
+    animation: emoji 1s linear;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes emoji {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
