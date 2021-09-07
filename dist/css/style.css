@@ -2031,6 +2031,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: baseline;
+	padding-bottom: 10px;
 }
 
 .contact-details-container {
@@ -2048,4 +2049,18 @@ main {
 .contact-detail {
 	display: flex;
 	flex-direction: column;
+}
+
+@media (max-width: 641px) {
+	.contact-us-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact-us {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 10px;
+	}
 }
