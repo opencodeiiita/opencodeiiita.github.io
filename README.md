@@ -1,6 +1,6 @@
 # Opencode 2020
 
-![OpenCode'20](https://opencode2020.github.io/dist/images/Logo.png)  
+![OpenCode'20](https://opencodeiiita.github.io/dist/images/Logo.png)  
 
 OpenCode is a month of opensource where programmers,
 designers and innovators code, design, learn and build
