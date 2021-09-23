@@ -20,4 +20,4 @@ Fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSds_L16lgbiFA39tCs6
 Fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSckqTvJMiWRuxONuRb_rF8AmGR0107nrxc5nVwrz3Bh51mdEA/viewform)
 
 ## Interested in sponsoring us?
-Take a look at our sponsorship [brochure](https://opencodeiiita.github.io/src/OpenCode.pdf) for more details!!
+Take a look at our sponsorship [brochure](https://opencodeiiita.github.io/src/OpenCode.pdf) for more details!
