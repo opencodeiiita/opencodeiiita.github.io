@@ -2051,6 +2051,10 @@ main {
 	flex-direction: column;
 }
 
+button{
+    cursor: pointer;
+}
+
 @media (max-width: 641px) {
 	.contact-us-container {
 		display: flex;
