@@ -2146,6 +2146,7 @@ button {
 		flex-direction: column;
 		justify-content: center;
 		margin: 0;
+		flex-wrap: nowrap;
 	}
 	.hero-copy{
 		padding: 0;
@@ -2155,6 +2156,7 @@ button {
 		margin-right: 20px;
 		padding: 0;
 		width: 50%;
+		margin-bottom: -150px;
 	}
 	.svg-test svg {
     padding-right: 0px;
