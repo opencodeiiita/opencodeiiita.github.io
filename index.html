@@ -70,7 +70,8 @@
 								The Only requirement being an enthusiastic heart to learn.😻
 								<div 
 									class="apply-button" 
-									data-hackathon-slug="opencode22" 
+									id="devfolio-apply-now"
+									data-hackathon-slug="opencode22"
 									data-button-theme="light"
 									style="height: 44px; width: 312px"
 								></div>
@@ -2192,6 +2193,29 @@
 
 	<script src="dist/js/main.min.js"></script>
 	<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			let devfolioOptions = {
+				buttonSelector: '#devfolio-apply-now',
+				key: 'opencode22',
+			}
+		
+			let script = document.createElement('script');
+			script.src = "https://apply.devfolio.co";
+			document.head.append(script);
+		
+			script.onload = function () {
+				new Devfolio(devfolioOptions);
+			}
+		
+			script.onerror = function () {
+				document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+					//window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+					window.location.href = 'https://opencode22.devfolio.co/'
+				});
+			}
+		});
+	</script>
 </body>
 
 </html>
