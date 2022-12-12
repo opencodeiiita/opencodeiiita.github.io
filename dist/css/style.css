@@ -1459,25 +1459,26 @@ label {
 	width: 140%;
 	height: auto;
 }
-
-.svg-test svg{
+.svg-test {
+	pointer-events: none;
+	z-index: 0;
+}
+.svg-test svg {
 	padding-right: 50px;
 	margin-top: -15vh;
 	transform: scale(2.5) translateX(50px);
 	width: 120%;
 }
 
-
-
 .svg-test {
 	padding-right: 100px;
 	width: 40%;
 }
-.hero-copy{
+.hero-copy {
 	padding-right: 100px;
 	width: 60%;
 }
-.hero-inner{
+.hero-inner {
 	margin-right: 100px;
 	display: flex;
 	flex-direction: row;
@@ -2006,7 +2007,6 @@ main {
 	border: none;
 	z-index: 1;
 }
-
 .buttonL + .buttonL {
 	margin-left: 10px;
 }
@@ -2115,78 +2115,75 @@ button {
 
 @media (max-width: 1250px) {
 	.svg-test svg {
-    padding-right: 0px;
-    margin-top: -15vh;
-    transform: scale(2.5) translate(30px, 0px);
-    width: 100%;	
+		padding-right: 0px;
+		margin-top: -15vh;
+		transform: scale(2.5) translate(30px, 0px);
+		width: 100%;
+	}
 }
-}
-
 
 @media (max-width: 1200px) {
 	.svg-test svg {
-    padding-right: 0px;
-    margin-top: -15vh;
-    transform: scale(2.5) translate(25px, 0px);
-    width: 100%;	
+		padding-right: 0px;
+		margin-top: -15vh;
+		transform: scale(2.5) translate(25px, 0px);
+		width: 100%;
+	}
 }
-}
-
 
 @media (max-width: 1024px) {
-	.hero-inner{
+	.hero-inner {
 		padding: 0;
 		flex-direction: column;
 		justify-content: center;
 		margin: 0;
 	}
-	.hero-copy{
+	.hero-copy {
 		padding: 0;
 		width: 80%;
 	}
-	.svg-test{
+	.svg-test {
 		margin-right: 20px;
 		padding: 0;
 		width: 50%;
 		margin-bottom: 100px;
 	}
 	.svg-test svg {
-    padding-right: 0px;
-    margin-top: -15vh;
-    transform: scale(1.1) translate(10px, 0px);
-    width: 100%;	
-}
+		padding-right: 0px;
+		margin-top: -15vh;
+		transform: scale(1.1) translate(10px, 0px);
+		width: 100%;
+	}
 }
 
 @media (max-width: 650px) {
-	.hero-inner{
+	.hero-inner {
 		padding: 0;
 		flex-direction: column;
 		justify-content: center;
 		margin: 0;
 		flex-wrap: nowrap;
 	}
-	.hero-copy{
+	.hero-copy {
 		padding: 0;
 		width: 80%;
 	}
-	.svg-test{
+	.svg-test {
 		margin-right: 20px;
 		padding: 0;
 		width: 50%;
 		margin-bottom: -150px;
 	}
 	.svg-test svg {
-    padding-right: 0px;
-    margin-top: -15vh;
-    transform: scale(1.5) translate(10px, 0px);
-    width: 100%;	
+		padding-right: 0px;
+		margin-top: -15vh;
+		transform: scale(1.5) translate(10px, 0px);
+		width: 100%;
+	}
 }
-}
-
 
 @media (max-width: 400px) {
-	body{
+	body {
 		overflow-x: hidden;
 	}
 }
