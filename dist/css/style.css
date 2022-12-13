@@ -1577,8 +1577,8 @@ label {
 .feature {
 	position: relative;
 	padding: 16px;
-	width: 300px;
-	max-width: 300px;
+	width: 388px;
+	max-width: 388px;
 	flex-grow: 1;
 }
 
@@ -1587,6 +1587,8 @@ label {
 	height: 100%;
 	background: #fff;
 	padding: 48px 24px 72px;
+	display: flex;
+	flex-direction: column;
 }
 
 .feature-inner::before {
@@ -1994,6 +1996,12 @@ main {
 	}
 }
 
+.feature .buttonL {
+	justify-self: flex-end;
+	/* align-self: flex-end; */
+	margin-top: auto;
+}
+
 .buttonLeft {
 	padding: 3px 15px;
 	overflow: hidden;
@@ -2034,6 +2042,54 @@ main {
 
 @media (max-width: 560px) {
 	.buttonLeft {
+		margin: 5px;
+	}
+}
+
+.jd-button {
+	padding: 0px 32px;
+	overflow: hidden;
+	background-color: #ffffff;
+	color: #474e51;
+	position: relative;
+	line-height: 40px;
+	text-align: center;
+	font-family: Fira Sans, serif;
+	box-shadow: none;
+	border: 2px solid #474e51;
+	border-radius: 4px;
+	z-index: 1;
+	width: 320px;
+	transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+.jd-button::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	transform: translateX(-100%);
+	background: #3770ff;
+	transition: transform 0.2s ease-in-out;
+}
+
+.jd-button:hover::before {
+	transform: translateX(0);
+}
+.jd-button:hover{
+	color: #ffffff;
+	border-color: #3770ff;
+}
+
+.jd-button span {
+	position: relative;
+	z-index: 1;
+}
+
+@media (max-width: 560px) {
+	.jd-button {
 		margin: 5px;
 	}
 }
