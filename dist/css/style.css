@@ -2256,6 +2256,7 @@ button {
 
 @media (max-width: 560px) {
 	.jd-button {
+		margin: 0;
 		margin-top: 10px;
 	}
 	.apply-button{
