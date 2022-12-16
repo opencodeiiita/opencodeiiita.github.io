@@ -2059,7 +2059,7 @@ main {
 	border: 2px solid #474e51;
 	border-radius: 4px;
 	z-index: 1;
-	width: 312px;
+	width: 100%;
 	transition: color 0.2s ease-in-out, border 0.2s ease-in-out;
 }
 
@@ -2241,5 +2241,27 @@ button {
 @media (max-width: 400px) {
 	body {
 		overflow-x: hidden;
+	}
+}
+
+@media (min-width: 560px) {
+	.jd-button{
+		width: 312px;
+		margin-top: 10px;
+	}
+	.apply-button{
+		width: 312px;
+	}
+}
+
+@media (max-width: 560px) {
+	.jd-button {
+		margin-top: 10px;
+	}
+	.apply-button{
+		width: 100% !important;
+	}
+	iframe{
+	width: 100% !important;
 	}
 }
