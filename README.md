@@ -1,6 +1,6 @@
 # Opencode 2022
 
-![OpenCode'22](https://github.com/opencodeiiita/opencodeiiita.github.io/blob/master/dist/images/New_Banner.png)  
+![OpenCode'22](https://opencodeiiita.github.io/dist/images/New_Banner.png)  
 
 OpenCode is a month of opensource where programmers,
 designers and innovators code, design, learn and build
