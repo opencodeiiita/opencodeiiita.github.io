@@ -1,6 +1,6 @@
-# Opencode 2021
+# Opencode 2022
 
-![OpenCode'21](https://opencodeiiita.github.io/dist/images/Logo_readme.png)  
+![OpenCode'22](https://github.com/opencodeiiita/opencodeiiita.github.io/blob/master/dist/images/New_Banner.png)  
 
 OpenCode is a month of opensource where programmers,
 designers and innovators code, design, learn and build
@@ -16,7 +16,7 @@ Each project will have issues open in it of varying difficulty and each issue wi
 ## Want to participate?
 Fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSds_L16lgbiFA39tCs6QiPgQhhqU8rimZ5WY7MeOFdNS7my9w/viewform)
 
-## Register a project and be mentor at opencode20!
+## Register a project and be mentor at opencode22!
 Fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSckqTvJMiWRuxONuRb_rF8AmGR0107nrxc5nVwrz3Bh51mdEA/viewform)
 
 ## Interested in sponsoring us?
