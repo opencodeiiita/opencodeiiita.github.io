@@ -1690,7 +1690,7 @@ header{
 .feature-inner1 {
 	position: relative;
 	height: 100%;
-	padding: 48px 24px 72px;
+	padding: 0px;
 	display: flex;
 	flex-direction: column;
 	color: rgba(214, 232, 227, 1);
@@ -2630,4 +2630,13 @@ text-align: justified;
 
 .project-heading{
 	padding-bottom: 80px;
+}
+
+.feature-inner1{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.features-wrap{
+	padding: 5px;
 }
