@@ -864,6 +864,8 @@ label {
 
 .mb-16 {
 	margin-bottom: 16px;
+	filter: drop-shadow(rgb(164,178,174) 0rem 0.45rem 5px);
+
 }
 
 .ml-16 {
