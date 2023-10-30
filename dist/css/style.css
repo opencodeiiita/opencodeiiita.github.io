@@ -2791,6 +2791,7 @@ button {
 	width: 150px;
 	height: 150px;
 	border: 10px solid white;
+	filter: drop-shadow(rgb(164,178,174) 0rem 0.45rem 5px);
 }
 
 .card .card-content .product-wrap {
