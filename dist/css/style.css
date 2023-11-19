@@ -1680,21 +1680,21 @@ header {
 	width: 0%;
 	position: absolute;
 	left: 50%;
-	top: 40%;
-	height: 0%;
+	top: 15%;
+	height: 53%;
 	margin-top: 250px;
 	border-radius: 100%;
 	z-index: 1;
 
 	background-color: rgba(49, 114, 114, 0.8);
-	box-shadow: 0 0 327px 500px rgba(26, 61, 61, 0.7);
+	box-shadow: 0 0 527px 500px rgba(26, 61, 61, 0.7);
 }
 
 .shadow4 {
 	width: 0%;
 	position: absolute;
 	left: 50%;
-	top: 18%;
+	top: 22%;
 	height: 0%;
 	margin-top: 250px;
 	border-radius: 100%;
@@ -3290,7 +3290,17 @@ button {
 	z-index: 2;
 }
 
-
+.spons{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 100px;
+	flex-wrap: nowrap;
+}
+.spons svg{
+	margin: 20px;
+}
 
 @media screen and (min-width:1023px) and (max-width:1198px) {
 	.img img {
@@ -3375,6 +3385,7 @@ svg{
 
 	.item{
 		width: 80%;
+		margin: auto;
 	}
 }
 @media screen and (min-width:450px) {
@@ -3393,5 +3404,12 @@ svg{
 	.project-heading{
 		padding-bottom: 0;
 	}
+
+	.spons{
+		flex-wrap: wrap;
+	}
 }
+
+
+
 
