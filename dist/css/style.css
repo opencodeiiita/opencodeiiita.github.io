@@ -2796,6 +2796,7 @@ button {
 
 .card .card-content .product-wrap {
 	width: 80%;
+	
 }
 
 /*back card*/
@@ -3165,6 +3166,12 @@ button {
 		width: 90%;
 	}
 
+	.owl-stage .active .item .card-wrap .card .card-back .card-content img.test-img {
+		width: 70.9px;
+		height: 77.9px;
+		border: 7px solid white;
+	}
+
 	.card .card-content p {
 		line-height: 150%;
 		font-size: 35%;
@@ -3188,10 +3195,11 @@ button {
 
 	.card-back .card-content img.test-img {
 		margin-top: -40px;
+		margin-bottom: 30px;
 		border-radius: 100%;
 		width: 80px;
 		height: 80px;
-		border: 10px solid white;
+		border: 7px solid white;
 	}
 	
 	.testimonial-heading{
@@ -3387,12 +3395,25 @@ svg{
 		width: 80%;
 		margin: auto;
 	}
+	.product-wrap{
+		height: 324px;
+		display: grid;
+		align-content: space-between;
+		
+	}
+	.testimonial-footer{
+		margin: 0;
+		margin-bottom: 10px;
+	}
 }
 @media screen and (min-width:450px) {
 	.top{
 		margin-top: 100px;
 	}
+	
 }
+
+
 @media screen and (max-width:450px) {
 	.top{
 		margin-top: 50px;
@@ -3407,6 +3428,19 @@ svg{
 
 	.spons{
 		flex-wrap: wrap;
+	}
+	.product-wrap{
+		height: 325px;
+		display: grid;
+		align-content: space-between;
+		
+	}
+	.testimonial-footer{
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.testimonial-footer h6{
+		margin-bottom: 5px;
 	}
 }
 
