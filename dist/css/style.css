@@ -2613,6 +2613,7 @@ button {
 .project_img {
 	border-radius: 50%;
 	width: 100px;
+	height: 100px;
 	align-self: center;
 	margin-top: -90px;
 	box-shadow: -2.1714284420013428px 5.790476322174072px 2.895238161087036px 0px rgba(0, 0, 0, 0.25);
