@@ -1884,7 +1884,8 @@ header {
 	position: relative;
 
 	padding-top: 50px;
-	margin-bottom: -100px
+	margin-bottom: -100px;
+	padding-bottom:30px;
 }
 
 .testimonials .section-inner {
