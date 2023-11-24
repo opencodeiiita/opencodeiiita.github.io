@@ -3446,6 +3446,7 @@ svg{
 	}
 }
 
-
-
-
+.modify {
+	display: flex;
+	flex-direction: row;
+}
