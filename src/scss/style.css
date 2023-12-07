@@ -1840,3 +1840,7 @@ main {
     margin-bottom: 0;
   }
 }/*# sourceMappingURL=style.css.map */
+.col-adjust{
+  width: 50%;
+  display: inline-block;
+}

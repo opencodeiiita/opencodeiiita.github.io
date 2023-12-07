@@ -3450,3 +3450,45 @@ svg{
 	display: flex;
 	flex-direction: row;
 }
+.col-adjust{
+	width: 32%;
+	height: 140px;
+	display: inline-block;
+}
+@media screen and (max-width:780px) {
+	.col-adjust{
+		width: 49%;
+		height: 140px;
+		display: inline-block;
+	}
+	
+}
+@media screen and (max-width:500px) {
+	.col-adjust{
+		width: 99%;
+		height: 140px;
+		display: inline-block;
+	}
+	
+}
+.img-adjust{
+	width: 250px;
+}
+.also-img-adjust{
+	height: 100px;
+}
+@media screen and (max-width:515px) {
+	.img-adjust{
+		width: 120px;
+	}
+	.also-img-adjust{
+		height: 80px;
+	}
+	
+}
+.centorr{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	object-fit: contain
+}
