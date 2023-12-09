@@ -14,10 +14,10 @@ Each project will have issues open in it of varying difficulty and each issue wi
 * Expert: 50 points
 
 ## Want to participate?
-Fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSds_L16lgbiFA39tCs6QiPgQhhqU8rimZ5WY7MeOFdNS7my9w/viewform)
+Register here [devfolio](https://opencode23.devfolio.co/)
 
-## Register a project and be mentor at opencode22!
-Fill in this [form](https://docs.google.com/forms/d/e/1FAIpQLSckqTvJMiWRuxONuRb_rF8AmGR0107nrxc5nVwrz3Bh51mdEA/viewform)
+## Register a project and be mentor at opencode23!
+Fill in this [form](https://docs.google.com/forms/u/1/d/1WGpXhS5rwgXtcIKdCoa7GHvzg6R2Yg6vGRmyS214ZfE/edit?usp=forms_home&ths=true)
 
 ## Interested in sponsoring us?
 Take a look at our sponsorship [brochure](https://opencodeiiita.github.io/src/OpenCode.pdf) for more details!
