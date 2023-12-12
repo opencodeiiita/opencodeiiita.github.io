@@ -3492,3 +3492,19 @@ svg{
 	margin-right: auto;	
 	object-fit: contain
 }
+.mobilekeliye{
+	display: none;
+}
+.laptopkeliye{
+	display: flex;
+}
+
+@media screen and (max-width:650px) {
+	.mobilekeliye{
+		display: flex;
+	}
+	.laptopkeliye{
+		display: none;
+	}
+	
+}
