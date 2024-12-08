@@ -2335,7 +2335,7 @@ main {
 	background: none;
 }
 
-.jd-button::before {
+/*.jd-button::before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -2349,12 +2349,12 @@ main {
 
 .jd-button:hover::before {
 	transform: translateX(0);
-}
+}*/
 
-.jd-button:hover {
+/* .jd-button:hover {
 	color: #ffffff;
 	border-color: #3770ff;
-}
+} */
 
 .jd-button span {
 	position: relative;
