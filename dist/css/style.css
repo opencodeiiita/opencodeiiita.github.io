@@ -1988,6 +1988,7 @@ header {
 .testimonial-footer {
 	font-weight: 500;
 	margin-bottom: 12px;
+	transform: translateY(-110px);
 }
 
 .testimonials-para {
