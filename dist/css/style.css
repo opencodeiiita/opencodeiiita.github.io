@@ -2346,7 +2346,7 @@ main {
 	width: 100%;
 	height: 100%;
 	transform: translateX(-100%);
-	background: #3770ff;
+	background: black;
 	transition: transform 0.2s ease-in-out;
 }
 
@@ -2356,7 +2356,7 @@ main {
 
 .jd-button:hover {
 	color: #ffffff;
-	border-color: #3770ff;
+	border-color: black;
 }
 
 .jd-button span {
@@ -2565,7 +2565,7 @@ button {
 }
 
 .site-footer {
-	background: #1D192B;
+	background: #241e3e;
 }
 
 .footer-brand {
