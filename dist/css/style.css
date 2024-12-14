@@ -2350,14 +2350,7 @@ main {
 	transition: transform 0.2s ease-in-out;
 }
 
-.jd-button:hover::before {
-	transform: translateX(0);
-}
 
-.jd-button:hover {
-	color: #ffffff;
-	border-color: black;
-}
 
 .jd-button span {
 	position: relative;
